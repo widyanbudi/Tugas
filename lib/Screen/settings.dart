@@ -140,7 +140,17 @@ class _SettingsState extends State<Settings> {
             style: TextStyle(color: Colors.white),
           ),
         ),
-      ],
+          Container(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              'Dikerjakan oleh Widyan Budiarsyah, NIM 21201025',
+              style: TextStyle(
+                fontSize: 14.0,
+                color: Colors.black,
+              ),
+            ),
+          ),
+    ],
     );
   }
 

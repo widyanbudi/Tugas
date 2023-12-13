@@ -139,6 +139,13 @@ class TimerHomePage extends StatelessWidget {
                   ),
                 ],
               ),
+              Text(
+                'Dikerjakan oleh Widyan Budiarsyah, NIM 21201025',
+                style: TextStyle(
+                  fontSize: 14.0,
+                  color: Colors.black,
+                ),
+                ),
             ],
           ),
         );
